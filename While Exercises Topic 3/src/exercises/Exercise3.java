@@ -1,10 +1,11 @@
 package exercises;
 import java.util.*;
 
-public class Exercise1 {
+public class Exercise3 {
 	public static void main(String[] args) {
 		int sum = 0; //Sum of all numbers
 		int num = 0; //Introduced numbers
+		int aux = 0; //Auxiliar
 		Scanner sc = new Scanner(System.in); //Scanner declared
 		System.out.println("Please introduce a positive number:");  //Program asks the user for a number
 		System.out.println("*Remember! You can always introduce a negative number whenever you wanna end the program.*"); //Reminder
