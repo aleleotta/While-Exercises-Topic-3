@@ -12,6 +12,7 @@ public class Exercise5 {
 		int numberValues = 10;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Introduce a number: ");
+		System.out.println("*You can introduce up to 10 values.*");
 		numberInput = sc.nextInt();
 		while (numberValues > 1) {
 			numberValues--;
