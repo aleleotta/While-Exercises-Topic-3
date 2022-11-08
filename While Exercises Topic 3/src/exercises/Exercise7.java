@@ -4,11 +4,11 @@ import java.util.*;
 public class Exercise7 {
 	public static void main(String[] args) {
 		int secretN;
-		int userN = 0;
+		int userN;
 		Scanner sc = new Scanner(System.in);
 		secretN = (int) (Math.random() * 100); //Given functionality to the secret number, casting int type, (Math.random() + range)
-		System.out.println(secretN);
 		System.out.println("Try to guess the secret number. \nType in a random number from 0 to 100");
+		userN = sc.nextInt();
 		while (secretN != userN && userN >= 0) {
 			if (userN > secretN) {
 				System.out.println("Your number is greater than the secret number.");
